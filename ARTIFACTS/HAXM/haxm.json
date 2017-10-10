@@ -4,8 +4,7 @@
     "description": "HAXM",
     "tags": [
         "HAXM"
-        
-    ],
+    ],      
     "iconUri": "https://github.com/Azure/azure-devtestlab/raw/master/Artifacts/windows-vscode/vscode%20icon.png",
     "targetOsType": "Windows",
     "runCommand": {
