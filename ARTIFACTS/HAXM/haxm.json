@@ -1,10 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "HAXM",
-    "description": "HAXM",
+    "title": "download haxm",
+    "description": "Install haxm",
     "tags": [
-        "HAXM"
-    ],      
+        "haxm",
+        "install"
+    ],
     "iconUri": "https://github.com/Azure/azure-devtestlab/raw/master/Artifacts/windows-vscode/vscode%20icon.png",
     "targetOsType": "Windows",
     "runCommand": {
