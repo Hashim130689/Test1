@@ -1,9 +1,9 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "download O365",
+    "title": "O365",
     "description": "Install O365",
     "tags": [
-        "O365"       
+        "O365"     
     ],
     "iconUri": "https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi-7PmehujWAhVHP48KHcK3BJwQjRwIBw&url=http%3A%2F%2Fit.miami.edu%2Fa-z-listing%2Fmicrosoft-office-365%2Findex.html&psig=AOvVaw0UCk1VmgRGeCkBEKJPnyIv&ust=1507793393897929",
     "targetOsType": "Windows",
