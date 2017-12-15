@@ -8,6 +8,6 @@
     "iconUri": "https://github.com/Azure/azure-devtestlab/raw/master/Artifacts/windows-vscode/vscode%20icon.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File apache-httpd.ps1"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File apache.ps1"
     }
 }
