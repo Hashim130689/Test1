@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+  "title": "workbench",
+  "description": "Installs workbench",
+  "tags": [
+    "Windows",
+    "workbench"
+     ],
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File workbench.ps1"
+  }
+}
