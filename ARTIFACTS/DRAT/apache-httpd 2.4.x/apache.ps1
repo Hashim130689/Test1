@@ -24,21 +24,22 @@ function InitializeFolders
     }
 }
 
-function WriteLog
-{
-    Param(
-        
-        [string]$Message,
-        [switch]$LogFileOnly
-    )
-    $timestampedMessage = "[$([System.DateTime]::Now)] $Message" | % {
-        if (-not $LogFileOnly)
-        {
-            Write-Host -Object $_
-        }
-        Out-File -InputObject $_ -FilePath $ScriptLog -Append
-    }
-}
+#@function WriteLog
+#{
+#    Param(
+ #       <# Can be null or empty #>
+  #      [string]$Message,
+   #     [switch]$LogFileOnly
+    #)
+
+   # $timestampedMessage = "[$([System.DateTime]::Now)] $Message" | % {
+    #    if (-not $LogFileOnly)
+     #   {
+      #      Write-Host -Object $_
+       # }
+        #Out-File -InputObject $_ -FilePath $ScriptLog -Append
+    #}
+#}@
 function InstallChocolatey
 {
     Param(
