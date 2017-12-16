@@ -54,8 +54,11 @@ Add-Type -assembly "system.io.compression.filesystem"
 
 [io.compression.zipfile]::ExtractToDirectory($BackUpPath, $destination)
 
+
 cd "C:\mysql-5.7.20-winx64\bin"
-& cmd /c  'mysqld --initialize' 
-& cmd /c  'mysqld'
+.\mysqld.exe --initialize
+.\mysqld.exe
+#& cmd /c  'mysqld --initialize' 
+#& cmd /c  'mysqld'
 
 #Remove-Item –path "C:\Software-Modules\spring-framework-5.0.1.RELEASE-dist.zip" -Recurse
