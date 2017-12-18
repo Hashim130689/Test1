@@ -36,4 +36,4 @@ if((Test-Path "$setupFolder\Mcafee.exe") -eq $false)
 
 #Instalaation of exe
 
-Start-Process "$setupFolder\Mcafee.exe" -verbose
+Start-Process "$setupFolder\Mcafee.exe" -wait
