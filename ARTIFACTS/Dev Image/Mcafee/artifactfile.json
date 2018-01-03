@@ -1,13 +1,15 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "mcafee",
-    "description": "install mcafee",
+    "title": "Install Mcafee",
+    "publisher": "G7CR Technologies India Pvt.Ltd",
+    "description": "Install Mcafee",
     "tags": [
-        "mcafee"              
+        "Install Mcafee"
     ],
-    "iconUri": "https://mylibrary123.blob.core.windows.net/reposit/G7.png",
+  "iconUri": "https://globalartifactstg.blob.core.windows.net/globalsoftwarelink4artifact/G7.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File mcafee.ps1"
+      "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File mcafee.ps1"
     }
-}
+  }
+  

@@ -1,10 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-  "title": "mysql5.7.20",
-  "description": "Installs mysql5.7.20",
+  "title": "Install Mysql5.7.20",
+  "publisher": "G7CR Technologies India Pvt.Ltd",
+  "description": "Install Mysql5.7.20",
   "tags": [
-    "MYSQL5.7.20"
-     ],
+    "Install Mysql5.7.20"
+  ],
+"iconUri": "https://globalartifactstg.blob.core.windows.net/globalsoftwarelink4artifact/G7.png",
   "targetOsType": "Windows",
   "runCommand": {
     "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File mysql5.7.20.ps1"
