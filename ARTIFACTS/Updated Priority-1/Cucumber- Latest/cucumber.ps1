@@ -1,7 +1,7 @@
 # Silent SASS using RubyInstaller
 
-[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:\Ruby23-x64\bin\;C:\RubyDevKit;C:\Ansicon\x64", "Machine") 
-$env:Path += ";C:\Ruby23-x64\bin\"
+[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:\Ruby24-x64\bin\;C:\RubyDevKit;C:\Ansicon\x64", "Machine") 
+$env:Path += ";C:\Ruby24-x64\bin\"
 $env:Path += ";C:\Ansicon\x64" 
 
 function Create-Folder {

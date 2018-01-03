@@ -69,10 +69,13 @@ Add-Type -assembly "system.io.compression.filesystem"
 
 
 
+<<<<<<< HEAD
+Start-Process -FilePath $setupFolder\sql.bat -WorkingDirectory C:\mysql-5.7.20-winx64\" 
+=======
 
 
 Start-Process -FilePath $setupFolder\sql.bat
-
+>>>>>>> e81b478a5d625d9ce5580e0f7c8b880fd8f3ce64
 
 #$env:Path += ";C:\mysql-5.7.20-winx64\bin"
 
